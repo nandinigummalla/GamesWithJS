@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Rock Paper Scissors</title>
+    <style>
+        img {
+            display: block;
+            margin: auto;
+        }
+
+        .center {
+            margin: auto;
+            width: 40%;
+            padding: 10px;
+        }
+
+        .button {
+            background-color: black;
+            border: none;
+            color: white;
+            padding: 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body style="background-color: lavender;">
+    <img src="https://static.vecteezy.com/system/resources/previews/000/691/497/original/rock-paper-scissors-neon-icons-vector.jpg"
+        style="width:40%" />
+    <div class="center">
+
+        <h2>Computer Choice: <span id="computer-choice"></span>
+        </h2>
+        <h2>Your Choice: <span id="user-choice"></span>
+        </h2>
+        <h2>Result: <span id="result"></span>
+        </h2>
+        <button class="button" id="rock">Rock</button>
+        <button class="button" id="paper">Paper</button>
+        <button class="button" id="scissors">Scissors</button>
+    </div>
+    <script src="rockapp.js" charset="utf-8"></script>
+</body>
+
+</html>
